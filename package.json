@@ -1,12 +1,12 @@
 {
-  "name": "hexo-deployer-aliyun",
-  "version": "0.4.0",
-  "description": "Aliyun deployer plugin of Hexo.",
+  "name": "hexo-deployer-aliyun-incr",
+  "version": "1.0.0",
+  "description": "Aliyun OSS incremental deployer plugin of Hexo.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yedaodao/hexo-deployer-aliyun.git"
+    "url": "https://github.com/mosliu/hexo-deployer-aliyun-incr"
   },
-  "homepage": "http://blog.yedaodao.com/",
+  "homepage": "http://www.liuxuan.net",
   "keywords": [
     "hexo",
     "aliyun",
@@ -14,12 +14,12 @@
     "deployer"
   ],
   "main": "index",
-  "author": "yedaodao",
+  "author": "mosliu",
   "license": "MIT",
   "dependencies": {
-    "ali-oss": "^4.8.0",
-    "bluebird": "^3.4.7",
-    "chalk": "^1.1.3",
-    "hexo-fs": "^0.1.6"
+    "ali-oss": "^4.12.2",
+    "bluebird": "^3.5.1",
+    "chalk": "^2.3.0",
+    "hexo-fs": "^0.2.2"
   }
 }

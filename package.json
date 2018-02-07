@@ -1,7 +1,7 @@
 {
   "name": "hexo-deployer-aliyun-incr",
   "version": "1.0.0",
-  "description": "Aliyun OSS incremental deployer plugin of Hexo.",
+  "description": "Aliyun OSS incremental deployer pluginnpm pub of Hexo.",
   "repository": {
     "type": "git",
     "url": "https://github.com/mosliu/hexo-deployer-aliyun-incr"

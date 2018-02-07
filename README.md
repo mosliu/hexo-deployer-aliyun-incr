@@ -2,6 +2,19 @@
 
 Aliyun OSS incremental deployer plugin for [Hexo](http://hexo.io/).
 
+Compare with the [origin plugin](https://github.com/yedaodao/hexo-deployer-aliyun),this one changes limit upload thread to 3.
+
+## Different with the origin one 
+
+The [origin plugin ](https://github.com/yedaodao/hexo-deployer-aliyun) , often occurs errors on uploading.
+
+So i study it and make two change:
+
+1. After a lot of research,I think it is that one has no  concurrent limit .So I add a limit of 3 to it.
+2.  I add a md5 hash check function  to verify if the file needed to upload again.
+
+
+
 ## Installation
 
 ``` bash
@@ -21,6 +34,14 @@ deploy:
   accessKeyId: <yourAccessKeyId>
   accessKeySecret: <yourAccessKeySecret>
 ```
+
+## Reset Md5Hash To UPLOAD ALL FILES
+
+Just  delete the `alioss.old.uploaded.info` file to UPLOAD ALL FILES.
+
+This file auto produced after upload.
+
+
 
 ## Known Issues
 
